@@ -1,18 +1,20 @@
-let userNames = [`josh`, `james`, `marc`, `lucas`]
+let userNames = [`JOSH`, `JAMES`, `MARC`, `LUCAS`, `winnerspree`]
 
 
 let counter = 0
 
 while(counter < userNames.length){
-      lowerUserName = userNames.toLowerCase()
-      doesInclude = userNames.includes(`winner`)
+    
+      let lowerUserName = userNames[counter].toLowerCase()
+      console.log(lowerUserName = userNames[counter].toLowerCase())
+      let doesInclude = userNames[counter].includes(`winner`)
     if(doesInclude === true){
-        console.log(`We have a winner (doesInclude)`)
+        console.log(`We have a winner: ${userNames[counter]}`);
     }
     counter++
 
     
 }
-let lowerUserName = userNames.toLowerCase()
-let doesInclude = userNames.includes(`winner`)
+
+
  
